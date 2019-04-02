@@ -1,0 +1,100 @@
+
+
+body {
+  background: url("/assests/images/Coloradoprofile.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+  font-family: 'Syncopate';
+
+}
+
+
+header {
+  position: relative;;
+  top: 0;
+  width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 70px; /* Full height */
+    position: relative; /* Make it stick, even on scroll */
+    overflow: scroll; /* Enable scrolling if the sidenav has too much content */
+  }
+
+
+  .liright {
+    margin: 18px;
+    float: right;
+    font-size: 25px;
+    margin-right: 40px;
+   
+  }
+
+
+  .tooltip {
+    margin-left: 15px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 50px;
+    opacity: 0;
+    transition: opacity 0.9s;
+    font-size: 25px;
+  }
+
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .blur {
+    -webkit-filter: blur(4px);
+}
+
+
+  p.fontsize {
+    font-size: 75px;
+    padding-bottom: 0px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: 175px;
+  }
+
+  p.twofontsize {
+    font-size: 75px;
+    margin-top: 0px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+  }
+
+  p.threefontsize {
+    font-size: 75px;
+    margin-top: 0px;
+    margin-left: 180px;
+    margin-bottom: 250px;
+  }
+
+.bio{
+  font-size: 30px;
+  margin-left: 35px;
+  margin-bottom: 200px;
+  
+}
+  
